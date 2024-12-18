@@ -1,6 +1,7 @@
 import React from 'react';
 import DarakarakaCalculator from '../components/DarakarakaCalculator';
 import FAQ from '../components/FAQ';
+import LeaderboardBanner from '../components/LeaderboardBanner';
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
         
         <DarakarakaCalculator />
       </section>
+
+      <LeaderboardBanner />
 
       <section className="container mx-auto px-4 py-8">
         <h2 className="text-3xl font-bold mb-6">Understanding Your Darakaraka</h2>

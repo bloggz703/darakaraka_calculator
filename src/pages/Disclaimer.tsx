@@ -1,4 +1,5 @@
 import React from 'react';
+import AffiliateDisclosure from '../components/AffiliateDisclosure';
 
 export default function Disclaimer() {
   return (
@@ -11,6 +12,8 @@ export default function Disclaimer() {
             <h2 className="text-2xl font-semibold mb-4">Astrological Calculations</h2>
             <p>The Darakaraka calculations provided on this website are based on traditional Vedic astrology principles. While we strive for accuracy, astrological interpretations should not be the sole basis for making life decisions.</p>
           </section>
+
+          <AffiliateDisclosure />
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">Accuracy of Results</h2>
