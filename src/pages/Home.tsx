@@ -2,7 +2,6 @@ import React from 'react';
 import DarakarakaCalculator from '../components/DarakarakaCalculator';
 import FAQ from '../components/FAQ';
 import LeaderboardBanner from '../components/LeaderboardBanner';
-import AdUnit from '../components/AdUnit';
 
 export default function Home() {
   return (
@@ -49,8 +48,6 @@ export default function Home() {
         </div>
       </section>
 
-      <AdUnit />
-      
       <FAQ />
     </div>
   );

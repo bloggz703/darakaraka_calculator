@@ -1,28 +1,28 @@
 import React from 'react';
-import { Heart } from 'lucide-react';
 
 export default function LeaderboardBanner() {
   return (
-    <a 
-      href="https://b43b4m18fq3n4q7qrfvu1ffd1k.hop.clickbank.net/?&traffic_source=google&traffic_type=organic&campaign=soul&creative=hoplink&ad=AD3"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="block w-[728px] h-[90px] mx-auto mb-8 bg-gradient-to-r from-rose-500 to-purple-600 rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300 group"
-    >
-      <div className="w-full h-full flex items-center justify-center px-6 group-hover:scale-105 transition-transform duration-300">
-        <Heart className="w-8 h-8 text-white mr-4 animate-pulse" />
-        <div className="text-white">
-          <p className="text-xl font-bold mb-1">
-            Find Your Best Suited Life Partner with Ease
-          </p>
-          <p className="text-sm">
-            & the Happy Marriage You Deserve! 
-            <span className="ml-2 bg-white text-rose-600 px-3 py-1 rounded-full font-bold">
-              Click Here Now!
-            </span>
-          </p>
-        </div>
+    <div className="mx-4 md:mx-auto max-w-4xl mb-8">
+      <div className="relative overflow-hidden rounded-xl shadow-2xl bg-gradient-to-br from-red-900 via-red-800 to-amber-900">
+        <a 
+          href="https://kwanlunar.gumroad.com/l/thesecretpowerofdarakaraka"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block p-6 md:p-8"
+        >
+          <div className="text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-3 text-amber-200 font-serif">
+              Calculated your Darakaraka?
+            </h2>
+            <p className="text-lg md:text-xl mb-6 text-amber-100/90">
+              Dive deeper and unlock its secrets! Discover the true power with this must-read ebook—yours now for just <span className="text-xl md:text-2xl font-bold">₹249!</span>
+            </p>
+            <button className="px-8 py-3 bg-amber-500 hover:bg-amber-400 text-red-900 font-bold rounded-full transform hover:scale-105 transition-all duration-300 shadow-lg text-lg">
+              Get the Ebook Now!
+            </button>
+          </div>
+        </a>
       </div>
-    </a>
+    </div>
   );
 }
