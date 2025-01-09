@@ -15,7 +15,7 @@ export default function LeaderboardBanner() {
               Calculated your Darakaraka?
             </h2>
             <p className="text-lg md:text-xl mb-6 text-amber-100/90">
-              Dive deeper and unlock its secrets! Discover the true power with this must-read ebook—yours now for just <span className="text-xl md:text-2xl font-bold">₹349!</span>
+              Dive deeper and unlock its secrets! Discover the true power with this must-read ebook — <span className="text-xl md:text-2xl font-bold">The Secret Power of Darakaraka: Unlocking the Role of Love and Spouse in Your Destiny</span>
             </p>
             <button className="px-8 py-3 bg-amber-500 hover:bg-amber-400 text-red-900 font-bold rounded-full transform hover:scale-105 transition-all duration-300 shadow-lg text-lg">
               Get the Ebook Now!
